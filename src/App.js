@@ -3,6 +3,7 @@ import { DiscordNavBarProject } from './Projects/DiscordInspiredNavbar/discord-n
 import { SmithNavComponent } from './Components/smith-nav/smith-nav.component';
 import { ProjectsPage } from './Components/projects-page/projects.page';
 import { Route, Routes } from 'react-router-dom';
+import { AboutPage } from './Components/about-page/about.component';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <SmithNavComponent />
         <Routes>
          <Route path='/' element={<ProjectsPage />} />
+         <Route path='/about-page' element={<AboutPage />} />
          <Route path='/discord-navbar' element={<DiscordNavBarProject />} />
        </Routes>
       </nav>
