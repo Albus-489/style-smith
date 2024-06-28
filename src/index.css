@@ -1,9 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); */
 
 @layer components {
+  /*? PROJECTS PAGE */
+  .project-plate {
+    @apply p-4 
+           transition-all ease-in-out 
+           hover:bg-falls-dark2 
+           bg-falls-dark1 text-falls-primary
+           shadow-lg 
+           cursor-pointer select-none 
+           text-center rounded-lg;
+  }
+
+  .projects-page{
+    @apply mx-8 md:mx-24;
+  }
+
+  .projects-wrapper{
+    @apply  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4;
+  }
+
+  /*? DISCORD NAV */
   .sidebar-icon {
     @apply relative flex items-center justify-center 
            h-12 w-12 m-2  
@@ -14,20 +34,25 @@
            cursor-pointer shadow-lg;
   }
 
-  .sidebar-tooltip{
+  .sidebar-tooltip {
     @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
     text-white bg-gray-900 
     text-xs font-bold 
     transition-all duration-100 scale-0 origin-left;
   }
+
+  /*? PORTFOLIO */
+  .portfolio {
+    @apply mx-28 bg-[#8988881c];
+  }
 }
 
 body {
-  color: white;
-  font-family: 'Itim', cursive;
+  @apply text-falls-primary bg-falls-dark0;
+  /* font-family: 'Itim', cursive; */
   font-weight: 400;
   font-style: normal;
-  background-color: rgb(44, 43, 43);
+  /* background-color: rgb(44, 43, 43); */
 }
 
 body,

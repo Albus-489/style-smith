@@ -18,6 +18,14 @@ module.exports = {
           300: '#e3e5e8',
           200: '#ebedef',
           100: '#f2f3f5'
+        },
+        falls:{
+          primary:'wheat',
+          secondary:'#bdbdbd',
+          accent:'#32393d',
+          dark2:'#464646',
+          dark1:'#373737',
+          dark0:'#2d2d2d'
         }
       }
     },

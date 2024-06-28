@@ -7,7 +7,7 @@ export const DiscordNavBarProject = () => {
   return (
     <div
       className="bg-[#8988881c] 
-                   mx-[100px] pb-5">
+                   mx-[5%] md:mx-[10%] pb-5">
       <h1
         className="text-[25px] text-center text-green-500
                       p-3 mb-5 
@@ -16,7 +16,7 @@ export const DiscordNavBarProject = () => {
       </h1>
       <div
         className="discord-nav 
-                      ml-32 pt-2 pb-2 w-16 
+                      ml-5 pt-2 pb-2 w-16 
                       select-none 
                       bg-gray-900 rounded-md">
         <SideBarIcon icon={<FaFire size="28" />} />

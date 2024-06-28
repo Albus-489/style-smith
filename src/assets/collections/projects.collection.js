@@ -1,6 +1,5 @@
 export const ProjectsCollection = [
   { name: 'Discord navbar', path: '/discord-navbar', description: '' },
-  { name: 'Portfolio', path: '/portfolio', description: '' },
   { name: 'Blog', path: '/blog', description: '' },
   { name: 'E-commerce site', path: '/ecommerce', description: '' },
   { name: 'Social Media App', path: '/social-media', description: '' },
