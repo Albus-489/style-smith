@@ -1,11 +1,10 @@
 .smith-nav{
 
-    background: linear-gradient(0deg, rgba(2, 0, 36, 0.427) 0%, rgba(33, 74, 121, 0.274) 100%);
+    background: rgba(65, 60, 60, 0.486);
     border-radius: 100px;
 
     box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
 
     display: flex;
     align-items: center;
-    padding: 20px 60px;
 }
