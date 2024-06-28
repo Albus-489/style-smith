@@ -10,12 +10,12 @@ function App() {
     <div className="App">
       <nav>
         <SmithNavComponent />
+      </nav>
         <Routes>
          <Route path='/' element={<ProjectsPage />} />
          <Route path='/about-page' element={<AboutPage />} />
          <Route path='/discord-navbar' element={<DiscordNavBarProject />} />
        </Routes>
-      </nav>
     </div>
   );
 }
