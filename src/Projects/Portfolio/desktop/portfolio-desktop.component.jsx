@@ -79,14 +79,14 @@ export const PortfolioDesktopComponent = (props) => {
   const ProfilePosition = () => {
     return (
       <div className="select-none profile-position pr-4 flex flex-col items-center gap-1 text-xl">
-        <span className='transition-color p-2 relative inline-block text-4xl cursor-pointer'>Full stack</span> <span className="border-b-[1px] w-10 border-b-white"></span> <span>web developer</span>
+        <span className='p-2 text-4xl cursor-pointer'>Full stack</span> <span className="border-b-[1px] w-10 border-b-white"></span> <span className='p-2 text-4xl cursor-pointer'>web developer</span>
       </div>
     );
   };
 
   const ProfileSkills = () => {
     return (
-      <div className="bg-animate profile-skills-language bg-falls-dark1 mb-[20px] rounded-br-md flex justify-between px-5 py-8">
+      <div className="bg-animate profile-skills-language bg-falls-dark1 mb-[20px] h-[410px] rounded-br-md flex justify-between px-5 py-8">
         <div className="skills w-[50%] text-center">
           <h2 className="text-lg font-bold">Skills</h2>
           <ul className="p-2 rounded-md border-animate text-start mt-5 flex flex-col gap-3">
