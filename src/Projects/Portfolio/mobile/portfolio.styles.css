@@ -42,3 +42,7 @@
   box-shadow: 0 0 5px 2px rgba(36, 35, 37, 0.5);
   animation: border-glow 2s infinite;
 }
+
+.collapse-btn{
+  transform: rotate(45);
+}
