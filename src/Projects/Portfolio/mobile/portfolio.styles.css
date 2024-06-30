@@ -1,0 +1,44 @@
+.profile-photo {
+  background: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExajlkZ21rNm15YXZ1amE1bnlubHp3ZGpsYThudnh5NmpmZHM5aWk4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1EpbANDwIoBHORfa/giphy.webp');
+  /* background: url('../../assets/images/CV.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+  .bg-animate {
+    background: linear-gradient(90deg, #1e3b8a47, #9233ea63, #e11d4760);
+  background-size: 300% 300%;
+  transition: background-position 1s ease-in-out;
+}
+.bg-animate:hover {
+  background-position: right center;
+}
+
+@keyframes border-glow {
+  0% {
+      box-shadow: 0 0 5px 2px rgba(36, 35, 37, 0.5);
+  }
+  50% {
+      box-shadow: 0 0 15px 4px rgba(36, 35, 37, 0.7);
+  }
+  100% {
+      box-shadow: 0 0 5px 2px rgba(36, 35, 37, 0.5);
+  }
+}
+
+.border-animate {
+  position: relative;
+}
+
+.border-animate::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 5px 2px rgba(36, 35, 37, 0.5);
+  animation: border-glow 2s infinite;
+}

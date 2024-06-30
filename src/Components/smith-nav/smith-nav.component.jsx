@@ -4,6 +4,7 @@ import logo from '../../assets/images/SmithStyleLogo340x90.png';
 import { Link } from 'react-router-dom';
 import { NavOptionsCollection } from '../../assets/collections/nav-options.collection';
 import { CiMenuFries } from 'react-icons/ci';
+import anvil from '../../assets/images/anvil_logo.png'
 
 export const SmithNavComponent = () => {
   const [sideMenuVisible, setSideMenu] = useState(false);
@@ -19,8 +20,9 @@ export const SmithNavComponent = () => {
   return (
     <div className="rounded-md smith-nav flex justify-between max-sm:px-6 px-14 py-6 my-7 h-16 md:mx-3 lg:mx-20 bg-gradient-to-b from-falls-dark1 to-falls-dark3">
       <div className="logo select-none cursor-pointer">
-        <Link to="/">
-          <img className='w-52' src={logo} alt="SmithStyleLogo" />
+        <Link className='flex gap-5 items-center' to="/">
+          <img className='w-10' src={anvil} alt="SmithStyleLogo" />
+          <span className='pl-5 py-1 border-l-falls-dark2 border-l-2 text-xl text'>StyleSmith</span>
         </Link>
       </div>
       <ul className="options max-md:hidden flex gap-20 align-middle select-none text-md lg:text-xl ease-in transition-all">

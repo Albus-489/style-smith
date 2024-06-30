@@ -1,6 +1,16 @@
 .profile-photo {
   background: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExajlkZ21rNm15YXZ1amE1bnlubHp3ZGpsYThudnh5NmpmZHM5aWk4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1EpbANDwIoBHORfa/giphy.webp');
+  /* background: url('../../assets/images/CV.png'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
+}
+
+.bg-animate {
+  background: linear-gradient(90deg, #1e3a8a, #9333ea, #e11d48);
+  background-size: 300% 300%;
+  transition: background-position 1s ease-in-out;
+}
+.bg-animate:hover {
+  background-position: right center;
 }
